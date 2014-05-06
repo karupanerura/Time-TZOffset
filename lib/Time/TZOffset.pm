@@ -6,7 +6,7 @@ use base qw/Exporter/;
 
 
 our $VERSION = "0.02";
-our @EXPORT_OK = qw/tzoffset/;
+our @EXPORT_OK = qw/tzoffset tzoffset_as_seconds/;
 
 use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
